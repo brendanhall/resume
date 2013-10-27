@@ -109,6 +109,9 @@ build/
 *.vrb
 *.xdy
 *.tdo
+*.ddf
+*.pdf
+
 
 # Visual C++ cache files
 ipch/
