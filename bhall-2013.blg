@@ -1,0 +1,32 @@
+This is 8-bit Big BibTeX version 0.99c
+Implementation:  GNU C for Unix
+Release version: 3.71 (18 Aug 1996)
+
+The top-level auxiliary file: bhall-2013.aux
+The style file: plain.bst
+Database file #1: publications.bib
+Repeated entry---line 169 of file publications.bib
+ : @article{hall20072007
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 285 of file publications.bib
+ : @article{hall2013investigating
+ :                               ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in driscoll2009data
+Warning--empty journal in driscoll2012modeling
+Warning--empty journal in driscoll2013application
+Warning--empty journal in easwaran2012model
+Warning--empty year in hall2005dependability
+Warning--empty journal in hall2013investigating
+Warning--empty journal in hall2007escape
+Warning--empty journal in paulitsch2009ieee
+
+Here's how much of BibTeX's memory you used:
+ Cites:                35 out of 7500
+ Fields:              516 out of 125000
+ Hash table:        34808 out of 35000
+ Strings:             670 out of 30000
+ String pool:       10363 out of 750000
+ Wizard functions:   2118 out of 10000
+(There were 2 error messages)
