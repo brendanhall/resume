@@ -1,0 +1,157 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+\documentclass[11pt,a4paper]{moderncv}
+% moderncv themes
+\moderncvtheme[red]{classic}                % idem
+% character encoding
+\usepackage[utf8]{inputenc}                 
+\usepackage{amssymb}
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                                             % if you want to change the width of the column with the dates
+\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+% personal data
+\firstname{Brendan}
+\familyname{Hall}
+%\title{Brendan Hall}               % optional, remove the line if not wanted
+\address{8767 Deer Path, Eden Prairie}{Minnesota, MN 55344}    % optional, remove the line if not wanted
+\mobile{(815) 670 4052}                    % optional, remove the line if not wanted
+%% \phone{phone (optional)}                      % optional, remove the line if not wanted
+%% \fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{resume@brendanhall.net}                      % optional, remove the line if not wanted
+\homepage{www.brendanhall.net}                % optional, remove the line if not wanted
+%% \extrainfo{additional information (optional)} % optional, remove the line if not wanted
+\photo[64pt]{ProfilePic}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+% \quote{Improve users' lives}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+\maketitle
+\vspace*{-2mm}
+\section{Education}
+%\cventry{2013 -}{MBA.}{Globe University }{Minneapolis, MN}{}{Masters Business Administration - onging  }
+\cventry{1993--1997}{PGDip.}{University of Hertfordshire}{United Kingdom }{}{ Computer Science }
+\cventry{1989-1991}{BEng.}{University Of Hertfordshire}{United Kingdom}{}{Electronic Engineering 2:1 Honours}
+
+\section{Professional Experience}
+\cventry{2001--present}{Technology Fellow}{Honeywell Aerospace, Advanced Technology}{Golden Valley MN}{}{}
+\cvline{}{\begin{small}As Fellow at Honeywell working within platform systems at Honeywell I responsible for executing internal and external technology research programs, contributing to the technology strategic plans, and developing junior personnel. My primary technology areas are fault-tolerant system architectures, model-based design and the application of formal methods\end{small}}
+\vspace*{-2mm}
+\cvline{}{\textbf{\begin{small}Proven Record of Technology  Development Leadership}\end{small}}
+\vspace*{-2mm}
+
+\cvline{Broadband Safety-Critical Networking}{\begin{small}From 2006 through 20010 I led the development of TTEthernet from conception through formal Technology Readiness Level (TRL) 6 assessment. Developed in partnership with TTTech,  TTEthernet (SAE AS802) is a next generation avionics networking solution, targeted to support multiple classes of critical and non-critical real-time traffic. The Honeywell leadership of TTEthernet involved the coordination of the local development team and the management of sub-contracting teams (2 locations in Europe). Following the NASA selection of TT-GbE as the backbone communications architecture for the Orion manned space program   I led the activities to formally retire the associated NASA  technology development risks. \end{small}
+}
+\vspace*{-2mm}
+
+\cvline{Low-Overhead Partitioning}{\begin{small}Development of low-overhead partitioned processor(in progress).Demonstrated low-cost / low complexity guardian gateway strategy for FlexRay.\end{small}}
+\vspace*{-2mm}
+\cvline{}{\begin{small}Development of hybrid mesh architecture to achieve 70\% SWAP reduction relative to triplex TTEthernet.\end{small}}
+\vspace*{-2mm}
+\cvline{}{\begin{small}Developed certifiable minimalist bus guardian for TTP/C in accordance with DO-254\end{small}}
+\vspace*{-2mm}
+\cvline{Flight Control}{\begin{small}Prototyped flight-control redundancy management demonstration leading to successful 787-flight-controls pursuit.\end{small}}
+\vspace*{-1mm}
+\cvline{Virtual Integration}{\begin{small}Honeywell representative to the AVSI SAVI project pioneering new methods of model-driven development and safety engineering\end{small}}
+\cvline{}{\textbf{Successful Record of Funded Research Execution}}
+\cvline{NASA}{\begin{small}Since 2010, I have led  the research relating to the   Assurance of Flight\ Critical Systems. This work targets the application of formal methods,  formal architectural modeling and test generation for  distributed system architectures.   SRI and WW-Technology Group are research partners.\end{small}}
+\cvline{FAA}
+{\begin{small}Co-Author of FAA Handbook for Data bus Evaluation. Significant contributor to FAA funded study relating to the application of CRC based integrity techniques.\end{small}}
+\cvline{}{\textbf{Proven Track Record of Innovation}}
+\cvline{Patents} {\begin{small}Over 40 Patents applied for. Over 30 awarded to date.\end{small}}
+\cvline{Papers} {\begin{small}Over 20 published papers. Several have received best-in-session recognition.\end{small}}
+
+
+%%%\ SUNSTRAND
+\newpage
+\section{Prior Professional Experience}
+\cventry{2001 - 2002}{Master Software Engineer}{Hamilton Sundstrand, Electric Power Systems}{}{}{Generic duties included the development of aircraft utility control software for the HS -SPDA secondary power distribution cabinet architecture. SW developed in accordance with DO178B, utilizing the Shlaer/Mellor development methodology. Target platform was a MPC750 processor using DiabData C and a proprietary time and space partitioned OS.}
+\cvline{Key Achievements}{
+\begin{small}Championed and led a pilot study to use COTS tools (MATLAB, Beacon-for-Simulink, DOORS) with in-house scripts for the automatic code generation of avionics utility control software demonstrating significant productivity gain.
+\end{small}}
+\cvline{}{\begin{small}Produced influential internal white paper on the application of TTP to secondary power distribution architecture
+\end{small}}
+
+%%%\ TUCSON
+
+\cventry{1998 - 2001}{Principal Software Engineer}{Honeywell Engines and Systems}{Tucson, AZ}{}{
+Generic responsibilities included the design and development of embedded C++ APU Engine Control Software to DO178B. Development tools include Microtec/Diab C++ under UNIX/NT and Rational Rose UML. Platforms include single and dual6833x, MPC509, using in house simple schedulers and COTS RTOS (VRTX) . CVS and Clear Case used for CM.}
+\cvline{Key Achievements}{\begin{small}One of the prime architects of Tucson's Modular Aerospace Control (MAC) a modular FADEC architecture based upon a TTP/C based fault-tolerant backbone. MAC was awarded research funding from NASA and has been successful in winning significant new business for the Tucson site.\end{small}}
+\cvline{}{\begin{small}Project and Technical Lead for the Honeywell Data Monitor (HDM) development; a Windows based tool for target based software monitoring and qualification testing. HDM comprised a win32 (Microsoft Visual C++, MFC, COM) based automation server hosting the script language Python. The tool was successfully deployed (60+ users) to support AS900 engine (D0-178B) certification.\end{small}}
+\cvline{}{\begin{small}Consulted to the site strategic test and development working group and was instrumental in introducing and deploying National Instrument's Lab Windows CVI and Test Stand.\end{small}
+}
+
+
+\cventry{1993 - 1998}{Software Engineer}{Motorola, AIEG}{Stotfold, UK}{}{}
+\cvline{}{\begin{small}Responsibilities included the strategic planning of test methods and the design of test platforms for new products (automotive power-train ECUs) under development in the department. The work included the design of ATP and environmental stress screening (ESS) systems, in C, C++ and Assembler (68xxxx). Test hardware included ISA, GPIB and VXI instrumentation; the software platforms in use were Microtec, Borland 4.5, Lab-Windows CVI, SourceSafe (for CM).\end{small}}
+\cvline{Key Achievements}{\begin{small}Championed new modular test development SW architecture that reduced test development time by 8X \end{small}}
+\cvline{}{\begin{small}Pioneered BDM based test techniques that enabled increased coverage for Chip -On-Board based products, and enabled analog in-circuit test systems to achieve digital component test coverage.\end{small}}
+\cvline{}{\begin{small}Traveled to partner companies and sites in Europe to consult and train people in new test techniques.\end{small}}
+
+
+\cventry{1993 - 1995}{Test Development Engineer}{Motorola, AIEG}{Stotfold, UK}{}{\begin{small}Responsibilities included the design and continuous improvement of test systems for an ISDN PC based video conferencing system. Test systems developed included PC GPIB based functional evaluation systems and Marconi 51x based parametric quality audit systems. Tests implemented to meet BABT manufacturing approval. This work included all aspects of test systems design from fixture specification to the design, development and integration of test system software and hardware configuration management system. Activities also included the proving and validation of test equipment; specifying GR\&R campaigns and the training of production line and analysis  personnel. \end{small} }
+
+\cventry{1991 - 1993}{Test Package Design Engineer}{British Aerospace}{Stevenage , UK}{}{
+This position incorporated both design and post design support roles. The main responsibilities comprised the design and development of automatic test system software working in C and Pascal on both DOS and UNIX (VxWorks) platforms using GPIB and VXI instrumentation. Other responsibilities included the specification and acceptance testing of VXI and GPIB instrument drivers for proprietary and in-house developed test instrumentation. Post design support of Z80 / 6502 assembler.}\\
+
+\section{Computer skills}
+\cvline{Proficient}{C/C++, JAVA,\ ADA,\ MODULA Python, SysML, VHDL, AADL,PSL, MS-Office, Latex\ \ }
+\cvline{Learning}{haskel,nodejs, Go}
+\cvline{Concepts}{Safety-Relevant Systems, Aerospace Certification (DO-178,DO-254,ARP-4754) Fault-Tolerance, System design, Parallel programming}
+\cvline{Tools Technologies}{SCADE, MATLAB, OSATE, Altera-Quartus, ModelSim, Enterprise-Architect,SAL, PVS}
+
+
+\section{Awards and Recognition}{}{}{}{}{}
+\cventry{June 2010}{NASA Space Flight Awareness Team Award}{}{}{}{For work relating to TT-GbE Development and Technology Maturation}
+\cventry{2008}{Technical Achievement Award}{Aerospace Wide}{}{}{For work relating fault-tolerant networking }
+\cventry{2007 and 2010}{Outstanding Engineer Award}{}{}{}{For Work Relating to TT-A664 Development}
+\cventry{2003}{Technical Achievement Award}{}{}{}{For work fault-tolerant field-bus development}
+\cventry{1991 and 1989}{Apprentice Award Winner}{}{}{}{}
+
+
+\section{\\ Interests}
+\cvline{Memberships}{\begin{small}Member of IEEE, INCOSE, SAE\end{small}. Active on SAE\ AS-2C and AS-2D\ committees }
+\cvline{Community}{\begin{small}First League Lego Coach 2012,2013\end{small}}
+\cvline{Hobbies}{\begin{small}Swimming, Music (Used to play in Celtic Rock Band)\end{small} }
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+\newpage
+\nocite{*}
+\bibliographystyle{plain}
+ \bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
+
